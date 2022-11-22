@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper{
+    max-width: 980px;
+    margin: 0 auto;
+    display: flow-root;
+}
+
+.col-6{
+    float: left;
+    width: 49%;    
+}
+
+.col-6.py-70{
+    padding: 76px 0;
+}
+
+.col-4{
+    float: left;
+    width: 32%;
+    margin-right: 1%;
+}
+
+.col-4:last-child{
+    margin-right: 0;
+}
+
+.main-header{
+    background-color: #000;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.main-header .page-title{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.home-hero{
+    background-image: url(../img/bg-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.home-description{
+    background-color: #000;
+}
+
+.home-description p{
+    line-height: 19px;
+    margin-bottom: 24px;
+}
+
+.home-description p:first-child{
+    margin-top: 21px;
+}
+
+.home-description .image-description{
+    width: 399px;
+    height: 237px;
+    object-fit: cover;
+    margin-left: 80px;
+}
+
+.home-features{
+    background-color: #1E1A13;
+    padding: 4.5em 0;
+}
+
+.home-features .feature{
+    text-align: center;
+}
+
+.home-features .feature .feature-title{
+    margin-top: 25px;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.home-features .section-title{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+    font-weight: 500;
+}
+
+.home-gallery{
+    padding: 4.5em 0;
+    background-color: #000;
+}
+
+.home-gallery .gallery-image{
+    width: 316px;
+    height: 202px;
+    object-fit: cover;
+}
+
+.main-footer{    
+    background-color: #1E1A13;
+    padding: 39px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.main-footer p{
+    margin-bottom: 0;
+}
+
+.main-footer a{
+    text-decoration: none;
+    color: #fff;
+}
